@@ -3,8 +3,9 @@ springboot-dubbo demo
 
 一个基于springboot的dubbo微服务demo
 
-demo中的表结构
+### demo中的表结构
 -- auto-generated definition
+
 create table clone_chapter
 (
     id       bigint auto_increment comment '主键'
@@ -21,6 +22,6 @@ create index idx_bookid
     on clone_chapter (book_id);
 
 
-需要外部资源：
+### 需要外部资源：
 1.mysql
 2.zookeeper 单机即可
