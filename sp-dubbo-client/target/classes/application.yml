@@ -1,0 +1,12 @@
+server:
+  port: 8088
+dubbo:
+  application:
+    name: sp-dubbo-consumer
+    owner: lilei
+  registry:
+    id: zookeeper-registry
+    protocol: zookeeper
+    address: zookeeper://139.196.33.4:2181?timeout=600000
+  monitor:
+    prototol: registry
