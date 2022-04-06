@@ -24,4 +24,5 @@ create index idx_bookid
 
 ### 需要外部资源：
 1.mysql
+
 2.zookeeper 单机即可
